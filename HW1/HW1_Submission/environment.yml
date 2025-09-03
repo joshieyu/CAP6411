@@ -1,0 +1,26 @@
+name: action-recognition-env
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  # --- Core Dependencies ---
+  - python=3.10
+  - pip
+  - ipykernel   # Added this line
+
+  # --- PyTorch and CUDA from specific channels ---
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - nvidia::cuda-toolkit=12.1
+
+  # --- Other packages installed via Pip ---
+  - pip:
+    - fvcore==0.1.5.post20221221
+    - matplotlib==3.10.0
+    - pillow==11.3.0
+    - scikit-learn==1.6.1
+    - seaborn==0.13.2
+    - timm==1.0.19
+    - tqdm==4.67.1

@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+timm
+pycocotools
+numpy
+Pillow
+psutil
+scipy
+gitpython
+addict
+yapf
+motpy
+# opencv-python
+git

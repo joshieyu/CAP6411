@@ -1,0 +1,28 @@
+I was unable to get conda and the environment.yml file to work on my system because
+the kernel kept on dying, however, I have included the environment.yml if you would
+like to try running it. However, using a Python venv with pip worked perfectly. Here are 
+the steps you can use to run the notebook.
+
+1. Create and activate your virtual environment (different on Windows and Mac/Linux).
+Make sure you have navigated to the folder containing the environment folder once you have
+created the virtual environment.
+
+Windows commands:
+python -m venv HW1_ENV
+HW1_ENV\Scripts\Activate
+
+Mac/Linux commands:
+python -m venv HW1_ENV
+source HW1_ENV/bin/Activate
+
+2. Navigate to HW submission folder (HW1_Submission) and install packages with command:
+
+pip install -r requirements.txt
+
+3. Open the Jupyter Notebook HW1_Code.ipynb with your desired IDE and run all the cells in the
+notebook. If you with to use jupyter lab in your browser, make sure to run these commands, 
+then it will open and you can run all the cells. Make sure to select the virtual environment 
+as your kernel (top right corner) once you are in the Jupyter Lab environment.
+
+python -m ipykernel install --user --name=HW1_ENV
+jupyter lab

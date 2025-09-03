@@ -1,0 +1,8 @@
+--- Training Started for ViT ---
+Epoch [1/5], Loss: 1.5582, Val Accuracy: 68.15%
+Epoch [2/5], Loss: 0.7212, Val Accuracy: 76.40%
+Epoch [3/5], Loss: 0.5099, Val Accuracy: 77.62%
+Epoch [4/5], Loss: 0.4167, Val Accuracy: 75.98%
+Epoch [5/5], Loss: 0.3240, Val Accuracy: 77.46%
+Total Training Time: 822.61 seconds
+Peak GPU Memory during Training: 4897.80 MB

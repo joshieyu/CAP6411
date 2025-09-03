@@ -1,0 +1,22 @@
+name: coco_inference
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - transformers
+    - timm
+    - pycocotools
+    - numpy
+    - Pillow
+    - psutil
+    - scipy
+    - gitpython
+    - addict
+    - yapf
+    - motpy
+    - opencv-python

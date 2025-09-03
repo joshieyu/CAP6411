@@ -1,0 +1,8 @@
+--- Training Started for ResNet ---
+Epoch [1/5], Loss: 1.7234, Val Accuracy: 46.72%
+Epoch [2/5], Loss: 1.3711, Val Accuracy: 50.90%
+Epoch [3/5], Loss: 1.1614, Val Accuracy: 59.68%
+Epoch [4/5], Loss: 1.0407, Val Accuracy: 61.90%
+Epoch [5/5], Loss: 0.9207, Val Accuracy: 58.25%
+Total Training Time: 100.86 seconds
+Peak GPU Memory during Training: 1223.59 MB
