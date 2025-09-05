@@ -1,15 +1,20 @@
-torch
-torchvision
-transformers
-timm
-pycocotools
-numpy
-Pillow
-psutil
-scipy
-gitpython
-addict
-yapf
-motpy
-# opencv-python
-git
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+transformers==4.56.0
+addict==2.4.0
+yapf==0.40.1
+timm==1.0.19
+numpy==1.26.4
+opencv-python==4.6.0.66
+supervision==0.26.1
+pycocotools==2.0.10
+requests==2.32.5
+matplotlib==3.10.0
+ipykernel 
+ipywidgets
+jupyter
+
+# Note: The groundingdino package must be installed manually.
+# After installing the requirements above, run the following command from the GroundingDINO directory:
+# pip install -e . --no-build-isolation
